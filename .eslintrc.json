@@ -4,7 +4,7 @@
     "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:import/recommnded",
+    "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:react/recommended",
     "plugin:jsx-a11y/recommended",
@@ -18,7 +18,14 @@
     "dist",
     "node_modules"
   ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": [
+      "./tsconfig.json"
+    ]
+  },
   "rules": {
+    "@typescript-eslint/explicit-function-return-type": "error",
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-call": "off",
@@ -30,6 +37,7 @@
     "no-underscore-dangle": "warn",
     "react/destructuring-assignment": "warn",
     "react/forbid-component-props": "off",
+    "react/react-in-jsx-scope": "off",
     "react/jsx-props-no-spreading": "off",
     "react/jsx-max-depth": [
       2,
@@ -38,12 +46,6 @@
       }
     ],
     "react-hooks/exhaustive-deps": "off",
-    "react-refresh/only-export-components": [
-      "warn",
-      {
-        "allowConstantExport": true
-      }
-    ],
     "prefer-destructuring": "off",
     "unicorn/new-for-builtins": "off",
     "unicorn/no-new-array": "warn",
