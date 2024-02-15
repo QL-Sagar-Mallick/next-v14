@@ -141,5 +141,3 @@ dist
 
 # typescript
 next-env.d.ts
-
-.yarn/*
