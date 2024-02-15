@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: "${{ env.node_version }}"
       - name: Set yarn version stable
-        run: yarn set verion stable
+        run: yarn set version stable
       - name: Install dependencies
         run: yarn install
       - name: Lint check
