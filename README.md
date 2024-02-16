@@ -6,7 +6,7 @@ with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/
 With this template, you get all the awesomeness you need:
 
 - 🚀 **[GitHub Actions](https://github.com/features/actions)** - Pre-configured actions for smooth workflows.
-  -✅ **[Docker](https://www.docker.com/)** - Setup the docker to run and test your application.
+- ✅ **[Docker](https://www.docker.com/)** - Setup the docker to run and test your application.
 
 ## Getting Started
 
