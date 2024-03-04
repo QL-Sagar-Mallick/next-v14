@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier ./src/**/* --write"
+    "format": "prettier ./src/**/* --write",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "next": "14",
@@ -30,6 +31,8 @@
     "eslint-plugin-sonarjs": "^0",
     "eslint-plugin-tsdoc": "^0",
     "eslint-plugin-unicorn": "^51",
+    "husky": "^9",
+    "lint-staged": "^15",
     "postcss": "^8",
     "prettier": "^3",
     "tailwindcss": "^3",
