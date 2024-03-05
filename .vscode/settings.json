@@ -8,7 +8,8 @@
   // Code Action kinds to be run on save.
   "editor.codeActionsOnSave": [
     "source.addMissingImports",
-    "source.organizeImports"
+    "source.organizeImports",
+    "source.fixAll.eslint"
   ],
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Format a file on save.

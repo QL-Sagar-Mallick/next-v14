@@ -6,6 +6,7 @@ with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/
 With this template, you get all the awesomeness you need:
 
 - 🚀 **[GitHub Actions](https://github.com/features/actions)** - Pre-configured actions for smooth workflows.
+- ✅ **[Docker](https://www.docker.com/)** - Setup the docker to run and test your application.
 
 ## Getting Started
 
@@ -27,6 +28,20 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and
 load Inter, a custom Google Font.
+
+## Docker run
+
+First, you need to build an image.
+
+```bash
+docker image build -t next-app .
+```
+
+Now, run a container for that image.
+
+```bash
+docker run -d -p 8080:3000 next-app
+```
 
 ## Learn More
 
