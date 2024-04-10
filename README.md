@@ -8,7 +8,7 @@ With this template, you get all the awesomeness you need:
 - 🚀 **[GitHub Actions](https://github.com/features/actions)** - Pre-configured actions for smooth workflows.
 - ✅ **[Docker](https://www.docker.com/)** - Setup the docker to run and test your application.
 - ✅ **[TailwindCSS](https://tailwindcss.com/)** - Tailwind css for UI styling.
-- ✅ **[Jenkins](https://jenkins.io/)** - Setup jenkins for deployment.
+- ✅ **[Jenkins](https://jenkins.io/)** - Setup jenkins for sonar lint.
 - ✅ **[Sonar](https://www.sonarsource.com/products/sonarqube/)** - For code quality checks for the raised PR.
 
 ## Getting Started
