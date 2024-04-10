@@ -1,4 +1,4 @@
-name: Check
+name: Lint
 
 on:
   push:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   check:
-    name: Check
+    name: Lint
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,9 +24,9 @@ jobs:
         run: yarn set version stable
       - name: Install dependencies
         run: yarn install
-      - name: Lint check
+      - name: Run ESLint
         run: yarn lint
-      - name: Format check
-        run: yarn format
-#      - name: Unit & Integration tests
-#        run: yarn test
+#     - name: Format check
+#       run: yarn format
+#     - name: Unit & Integration tests
+#       run: yarn test
