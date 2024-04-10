@@ -13,10 +13,9 @@ With this template, you get all the awesomeness you need:
 - ✅ **[Husky](https://typicode.github.io/husky/)** - Husky for pre commit hooks.
 - ✅ **[ESLint](https://eslint.org/)** - Enforce code style to follow best practices.
 - ✅ **[Prettier](https://prettier.io/)** - Prettier for code formatting.
-
 - ✅ **[Yarn](https://yarnpkg.com/)** - Use yarn as package manager.
-
 - **[Node v20.12.1 LTS](https://nodejs.org/en/blog/release/v20.12.1)** is used now.
+- PR description can be found here `.github/pull-request.md`.
 
 ## Getting Started
 
