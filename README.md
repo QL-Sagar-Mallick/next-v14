@@ -10,6 +10,11 @@ With this template, you get all the awesomeness you need:
 - ✅ **[TailwindCSS](https://tailwindcss.com/)** - Tailwind css for UI styling.
 - ✅ **[Jenkins](https://jenkins.io/)** - Setup jenkins for sonar lint.
 - ✅ **[Sonar](https://www.sonarsource.com/products/sonarqube/)** - For code quality checks for the raised PR.
+- ✅ **[Husky](https://typicode.github.io/husky/)** - Husky for pre commit hooks.
+- ✅ **[ESLint](https://eslint.org/)** - Enforce code style to follow best practices.
+- ✅ **[Prettier](https://prettier.io/)** - Prettier for code formatting.
+
+- ✅ **[Yarn](https://yarnpkg.com/)** - Use yarn as package manager.
 
 ## Getting Started
 
@@ -37,13 +42,13 @@ load Inter, a custom Google Font.
 First, you need to build an image.
 
 ```bash
-docker image build -t next-app .
+docker image build -t next-v14 .
 ```
 
 Now, run a container for that image.
 
 ```bash
-docker run -d -p 8080:3000 next-app
+docker run -d -p 8080:3000 next-v14
 ```
 
 ## Learn More

@@ -32,7 +32,6 @@
     "eslint-plugin-tsdoc": "^0",
     "eslint-plugin-unicorn": "^51",
     "husky": "^9",
-    "lint-staged": "^15",
     "postcss": "^8",
     "prettier": "^3",
     "tailwindcss": "^3",
