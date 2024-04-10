@@ -40,5 +40,5 @@
   "repository": "git@github.com:tanmaymazumdar19/next-v14.git",
   "author": "Tanmay Mazumdar <tanmay.mazumdar@quokkalabs.com>",
   "license": "MIT",
-  "packageManager": "yarn@4.1.0"
+  "packageManager": "yarn@4.1.1"
 }

@@ -16,6 +16,8 @@ With this template, you get all the awesomeness you need:
 
 - ✅ **[Yarn](https://yarnpkg.com/)** - Use yarn as package manager.
 
+- **[Node v20.12.1 LTS](https://nodejs.org/en/blog/release/v20.12.1)** is used now.
+
 ## Getting Started
 
 First, run the development server:
