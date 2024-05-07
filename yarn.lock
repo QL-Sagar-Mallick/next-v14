@@ -2039,6 +2039,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"framer-motion@npm:^11.1.9":
+  version: 11.1.9
+  resolution: "framer-motion@npm:11.1.9"
+  dependencies:
+    tslib: "npm:^2.4.0"
+  peerDependencies:
+    "@emotion/is-prop-valid": "*"
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  peerDependenciesMeta:
+    "@emotion/is-prop-valid":
+      optional: true
+    react:
+      optional: true
+    react-dom:
+      optional: true
+  checksum: 10c0/c1bbadb5f5c324de0473f3fb2c3d0180fc5239335f49b536dc827dff27c87d749af402d1c1fbe7081fbc15b816e32fadf66e24970476f98b2934464f8df9bdb0
+  languageName: node
+  linkType: hard
+
 "fs-minipass@npm:^2.0.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -3206,6 +3226,7 @@ __metadata:
     eslint-plugin-sonarjs: "npm:^0"
     eslint-plugin-tsdoc: "npm:^0"
     eslint-plugin-unicorn: "npm:^51"
+    framer-motion: "npm:^11.1.9"
     husky: "npm:^9"
     next: "npm:14"
     postcss: "npm:^8"
